@@ -1,9 +1,9 @@
 package AdapterDemo.Old;
 
 public class Customer implements customerInfo{
-    private String name;
-    private int SSN;
-    private String address;
+    private final String name;
+    private final int SSN;
+    private final String address;
 
     private CreditCard customerCard;
 
