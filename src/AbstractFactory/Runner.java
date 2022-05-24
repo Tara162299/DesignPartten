@@ -1,6 +1,6 @@
 package AbstractFactory;
 import AbstractFactory.Brands.GetBrandFactory;
-import AbstractFactory.Brands.Vehicle.GetVehicleFactory;
+import AbstractFactory.Vehicle.GetVehicleFactory;
 
 
 public class Runner {

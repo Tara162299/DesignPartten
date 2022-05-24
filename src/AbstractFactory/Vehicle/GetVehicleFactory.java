@@ -1,6 +1,4 @@
-package AbstractFactory.Brands.Vehicle;
-
-import AbstractFactory.Brands.GetBrandFactory;
+package AbstractFactory.Vehicle;
 
 public class GetVehicleFactory {
     private final String brandName;

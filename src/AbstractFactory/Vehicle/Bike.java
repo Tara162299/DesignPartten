@@ -1,4 +1,4 @@
-package AbstractFactory.Brands.Vehicle;
+package AbstractFactory.Vehicle;
 
 public class Bike extends Vehicle {
     private final String brandName;

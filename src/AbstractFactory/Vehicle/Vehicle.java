@@ -1,4 +1,4 @@
-package AbstractFactory.Brands.Vehicle;
+package AbstractFactory.Vehicle;
 
 import AbstractFactory.Brands.Brand;
 
