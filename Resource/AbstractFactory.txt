@@ -1,0 +1,3 @@
+Use abstract factory:
+- Same as Factory method, but the abstract factory is class that consists multiple factory methods
+- Use when there is a large system: Ex: Brand: Mitsubishi, Toyota => Each brand either has its Vehicle, Electronics, etc or all of them => ...
