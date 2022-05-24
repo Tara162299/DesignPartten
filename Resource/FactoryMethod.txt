@@ -1,0 +1,4 @@
+Use Factory Method:
+- Get an abstract class or an interface for the common types of all subclass (Ex: Vehicle: Plane, Car, etc)
+- Have a separate class to declare an object: a factory. Ex: The GetVehicleFactory class
+

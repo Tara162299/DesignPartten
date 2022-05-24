@@ -1,6 +1,6 @@
-package AdapterDemo.Old;
+package Adapter.Old;
 
-public class Customer implements customerInfo{
+public class Customer implements CustomerInfo {
     private final String name;
     private final int SSN;
     private final String address;

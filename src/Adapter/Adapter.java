@@ -1,9 +1,9 @@
-package AdapterDemo;
+package Adapter;
 
-import AdapterDemo.New.newCustomerInfo;
-import AdapterDemo.Old.customerInfo;
+import Adapter.New.NewCustomerInfo;
+import Adapter.Old.CustomerInfo;
 
-public class Adapter implements newCustomerInfo {
+public class Adapter implements NewCustomerInfo {
 
     private String cardNumber;
     private String cardName;
@@ -11,13 +11,12 @@ public class Adapter implements newCustomerInfo {
     private int CVV;
     private double totalAmount;
 
-    private final customerInfo info;
+    private final CustomerInfo info;
 
-    public Adapter(customerInfo info) {
+    public Adapter(CustomerInfo info) {
         this.info = info;
         transfer();
     }
-
 
     @Override
     public String getCustCardNo() {

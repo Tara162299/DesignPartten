@@ -1,4 +1,4 @@
-package AdapterDemo.Old;
+package Adapter.Old;
 
 public class CreditCard {
     private final String customerName;

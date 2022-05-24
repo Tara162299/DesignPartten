@@ -1,0 +1,4 @@
+Use the adapter design parttern when:
+- Want to reuse the existing code with similar functions
+- But the two sources are not compatitble to each other, for example, the interfaces of the old code and the newly required one are not compatible
+=> Use an adapter class that implement the new interface, then have a "transfer" method that modify the "Set" methods of the adapter class

@@ -1,6 +1,6 @@
-package AdapterDemo.New;
+package Adapter.New;
 
-public interface newCustomerInfo {
+public interface NewCustomerInfo {
     String getCustCardNo();
     String getCardOwnerName();
     String getCardExpDate();

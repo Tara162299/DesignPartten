@@ -1,6 +1,6 @@
-package AdapterDemo.Old;
+package Adapter.Old;
 
-public interface customerInfo {
+public interface CustomerInfo {
 
     int getSSN();
 
