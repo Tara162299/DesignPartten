@@ -1,4 +1,4 @@
-package FactoryMethod.Vehicle;
+package FactoryMethod;
 
 public class Runner {
     public static void main(String[] args) {

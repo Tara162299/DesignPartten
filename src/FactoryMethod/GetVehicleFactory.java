@@ -1,4 +1,4 @@
-package FactoryMethod.Vehicle;
+package FactoryMethod;
 public class GetVehicleFactory {
     public Vehicle getVehicle(String type) {
         Vehicle vehicle;

@@ -1,4 +1,4 @@
-package FactoryMethod.Vehicle;
+package FactoryMethod;
 
 public class Plane extends Vehicle {
     private final String type = "Plane";

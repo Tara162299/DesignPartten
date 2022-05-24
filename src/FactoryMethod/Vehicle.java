@@ -1,4 +1,4 @@
-package FactoryMethod.Vehicle;
+package FactoryMethod;
 
 abstract class Vehicle {
     private String type;

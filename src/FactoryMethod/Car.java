@@ -1,8 +1,9 @@
-package FactoryMethod.Vehicle;
+package FactoryMethod;
 
-public class Bike extends Vehicle {
-    private final String type = "Bike";
-    private final double rate = 2.0;
+public class Car extends Vehicle {
+    private final String type = "Car";
+    private final double rate = 5.0;
+
     @Override
     public void getRate() {
         System.out.println("The fee for an hour operating a " + type + " is: " + rate);
